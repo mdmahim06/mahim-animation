@@ -1,0 +1,110 @@
+body{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1360px 950px;
+}
+.header_menu_contrls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+}.header_logo_img{
+    width: 60px;
+    border-radius: 50%;
+    border: 5px double white;
+    cursor: pointer;
+}
+.header_menu_ul{
+    display: flex;
+    list-style: none;
+}
+.header_menu_li{
+    padding: 10px 15px;
+    margin: 0px 4px;
+    border-radius: 22px;
+    cursor: pointer;
+}.header_mail_li{
+    padding: 10px 15px;
+    margin: 0px 4px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.header_menu_li::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: red;    
+    margin: 29px -63px;
+    transition: var(--transition);
+}.header_menu_li:hover::after{
+    width: 50px;
+}
+.mail_icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.manu_link{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}.singupbtn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    background: white;
+    color: black;
+    padding: 6px 18px;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 104px;
+    height: 104px;
+    margin-left: 26px;
+}.singupbtn::after{
+    content: '';
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    border: 6px dotted;
+    animation: bordersubmit 5s infinite linear;
+    border-radius: 100%;
+    margin: -44px -86px;
+}
+.body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main_title{
+    font-size: 50px;
+ }.link_title{
+    text-decoration: underline;
+    color: rgb(0, 247, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}p{
+font-weight: 300;
+margin: 15px 0px;
+}
+.input{
+    padding: 13px 16px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    color: black;
+    padding-right: 163px;
+    
+}.submit{
+    background:rgb(0, 247, 255);
+    padding: 9px 19px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: -41px 193px;
+    cursor: pointer;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
